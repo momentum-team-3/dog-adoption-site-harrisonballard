@@ -1,0 +1,29 @@
+HTML
+
+-header: happy valley shelter
+-subheader: adopt a dog
+-caption/p tag: if interested....fill out a form <hyperlink>
+
+<section>
+-3 rows of 3 columns of dogs up for adoption. components below, try to DRY code it 
+1) image
+2) name of dog as caption, left justified
+3) tags, which will overflow to next line if too many 
+
+</section>
+
+<footer>
+
+3 images with text overlay:
+Donate, Volunteer, and Our Location
+(probably can make all of them links that redirect to a solo "coming soon" page)
+
+
+CSS
+
+-header class: blue background, some padding, white text largest font, margin to middle section
+-middle class: padding around sides, grid format (flexbox?) in line by the top with regular spacing 
+between the images, but "overflow" of big images just takes downward in the column. regular
+spacing between rows. tags are blue with full rounding and levitate tag shaped. 
+-footer class: cover entire section with a purple semi-translucent covering. 3 images
+that are block by block even split and white overlay text. so no padding. 
