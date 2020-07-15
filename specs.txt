@@ -27,3 +27,4 @@ between the images, but "overflow" of big images just takes downward in the colu
 spacing between rows. tags are blue with full rounding and levitate tag shaped. 
 -footer class: cover entire section with a purple semi-translucent covering. 3 images
 that are block by block even split and white overlay text. so no padding. 
+
