@@ -1,6 +1,6 @@
+
 .container {
     display: flex;
-    
     justify-content: center;
     width: 33.33%;
     
@@ -14,10 +14,16 @@
 }
 
 h1 {
+    font-family: Open Sans;
     color: #FFFFFF;
 }
 
+h3 {
+    font-family: Open Sans;
+}
+
 .CTA {
+    font-family: Open Sans;
     padding-left: 2%;
 }
 
@@ -27,4 +33,16 @@ section {
 
 .pill {
     background-color: #8FDEEF;
+    font-family: Open Sans;
+    padding: 0.3%;
+    border: 2px #8FDEEF;
+    border-radius: 12px;
+}
+
+.column {
+
+}
+
+figcaption {
+    font-family: Oswald;
 }
