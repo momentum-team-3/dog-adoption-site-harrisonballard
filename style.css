@@ -5,10 +5,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 33.33%;
-    margin: 1px;
-    
+    margin: 1px; 
 }
-
 
 .containerImages {
     max-width:100%;
@@ -67,6 +65,7 @@ footer {
     position: relative;
     text-align: center;
     color: #FFFFFF;
+    
 }
 
 .footerText {
