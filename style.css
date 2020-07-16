@@ -1,9 +1,17 @@
 
 .container {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     width: 33.33%;
+    margin: 1px;
     
+}
+
+
+.containerImages {
+    max-width:100%;
 }
 
 .header {
@@ -32,6 +40,7 @@ section {
 }
 
 .pill {
+    align-content: flex-start;
     background-color: #8FDEEF;
     font-family: Open Sans;
     padding: 0.3%;
@@ -39,10 +48,29 @@ section {
     border-radius: 12px;
 }
 
-.column {
-
-}
 
 figcaption {
     font-family: Oswald;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: 1px;
+}
+
+.footerImages {
+    width: 33.33%;
+}
+
+.footContainer {
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footerText {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
 }
