@@ -1,17 +1,4 @@
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 33.33%;
-    margin: 1px; 
-}
-
-.containerImages {
-    max-width:100%;
-}
-
 .header {
     background-color: #093D77;
     padding-top: 2%;
@@ -36,40 +23,62 @@ h3 {
 section {
     padding-left: 2%;
 }
-
-.pill {
-    align-content: flex-start;
-    background-color: #8FDEEF;
-    font-family: Open Sans;
-    padding: 0.3%;
-    border: 2px #8FDEEF;
-    border-radius: 12px;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
-
+    
+img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+.flex-item {
+    max-width: 30%;
+    padding: 1%;
+    }
 
 figcaption {
     font-family: Oswald;
+    padding: 1px;
+    margin: 1px; 
+    }
+
+
+.flex-item > ul {
+    list-style-type: none;
 }
 
-footer {
+.flex-item > ul > li {
+display: inline-block; 
+padding: 3px; 
+border-radius: 12px;
+background-color: #8FDEEF;
+font-family: Open Sans;
+}
+
+.footer-flex-item {
     display: flex;
-    width: 100%;
-    margin: 1px;
+    max-width: 100%;
+    }
+
+
+
+
+#footer1 {
+    background: URL(starter_files/images/donate.jpg);
+    min-height: 450px;
 }
 
-.footerImages {
-    width: 33.33%;
+#footer2 {
+    background: URL(starter_files/images/volunteer.jpg);
+    min-height: 450px;
 }
 
-.footContainer {
-    position: relative;
-    text-align: center;
-    color: #FFFFFF;
-    
+#footer3 {
+    background: URL(starter_files/images/location.png);
+    min-height: 450px;
 }
 
-.footerText {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-}
