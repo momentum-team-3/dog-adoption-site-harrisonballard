@@ -40,10 +40,11 @@ img {
     padding: 1%;
     }
 
-figcaption {
-    font-family: Oswald;
+h4 {
+    font-family: Open Sans;
     padding: 1px;
     margin: 1px; 
+    
     }
 
 
@@ -60,25 +61,26 @@ font-family: Open Sans;
 }
 
 .footer-flex-item {
-    display: flex;
+    min-width: 33.33%;
     max-width: 100%;
+    text-align: center;
     }
 
 
 
 
 #footer1 {
-    background: URL(starter_files/images/donate.jpg);
+    background: linear-gradient(rgba(168,166,241, 0.5), rgba(168,166,241, 0.5)), URL(starter_files/images/donate.jpg);
     min-height: 450px;
 }
 
 #footer2 {
-    background: URL(starter_files/images/volunteer.jpg);
+    background: linear-gradient(rgba(168,166,241, 0.5), rgba(168,166,241, 0.5)), URL(starter_files/images/volunteer.jpg);
     min-height: 450px;
 }
 
 #footer3 {
-    background: URL(starter_files/images/location.png);
+    background: linear-gradient(rgba(168,166,241, 0.5), rgba(168,166,241, 0.5)), URL(starter_files/images/location.png);
     min-height: 450px;
 }
 
